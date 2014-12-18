@@ -17,9 +17,6 @@ public class RoboDraw
 				// Circle
 				if(angle == 360)
 				{
-					Motor.A.setSpeed(9);
-					Motor.B.setSpeed(2);
-					Motor.A.forward();
 					Motor.B.forward();
 					Delay.msDelay(10000);
 				}
