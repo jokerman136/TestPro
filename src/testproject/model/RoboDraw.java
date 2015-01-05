@@ -17,18 +17,17 @@ public class RoboDraw
 				// Circle
 				if(angle == 360)
 				{
+					Motor.A.forward();
 					Motor.B.forward();
-					Delay.msDelay(10000);
+					Delay.msDelay(2000);
 				}
 				if(angle == 180)
 				{
-					
+				
 				}
 				else
 				{
-					Motor.A.stop();
-					Motor.B.stop();
-					Motor.C.stop();
+					
 				}
 				
 				
